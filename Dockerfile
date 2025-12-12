@@ -2,7 +2,7 @@ FROM python:3.10-slim
 
 WORKDIR /app
 
-COPY . .
+COPY Requirement.txt .
 
 RUN pip3 install --no-cache-dir -r Requirement.txt
 
