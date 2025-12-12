@@ -12,7 +12,7 @@ pipeline
 		{
 			steps
 			{
-				git branch:"main" url:"https://github.com/vs1ms24mc107-wq/flask1.git"
+				git branch:"main", url:"https://github.com/vs1ms24mc107-wq/flask1.git"
 			}
 		}
 		stage('Build docker image')
