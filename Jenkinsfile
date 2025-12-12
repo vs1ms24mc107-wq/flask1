@@ -3,7 +3,7 @@ pipeline
 	agent any
 	environment
 	{
-		DOCKER_CREDENTIALS=credential('dh1')
+		DOCKER_CREDENTIALS=credentials('dh1')
 		Image_Name="vs1ms24mc107/my_webapp"
 	}
 	stages
